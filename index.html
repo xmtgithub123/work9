@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Four Boxes Slideshow | Demo 1</title>
+		<link rel="shortcut icon" href="img/ppt.ico">
+		<meta name="description" content="Four Boxes Slideshow: Recreating the background image slideshow seen on Atelier Serge Thoroval's website" />
+		<meta name="keywords" content="background slideshow, boxes, background image, four panels, css, tutorial" />
+		<meta name="author" content="Codrops" />
+		
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+		<script src="js/modernizr.custom.js"></script>
+		<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/ppt.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+       
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#" id="project">Project name</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                      <ul class="nav navbar-nav">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#about">About</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                              <li class="dropdown"><!-- 带有下拉框的菜单 -->
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                      <li><a href="#">Action</a></li>
+                                                      <li><a href="#">Another action</a></li>
+                                                      <li><a href="#">Something else here</a></li>
+                                                      <li class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                               </li>
+                      </ul>
+                </div><!--/.nav-collapse -->
+         
+ </nav>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div id="boxgallery" class="boxgallery" data-effect="effect-1">
+				
+				<div class="panel"><img src="img/12.png" alt="Image 1"/></div>
+				<div class="panel"><img src="img/12.png" alt="Image 2"/></div>
+				<div class="panel"><img src="img/12.png" alt="Image 3"/></div>
+				<div class="panel"><img src="img/12.png" alt="Image 4"/></div>
+
+
+			</div>
+			<header class="codrops-header">
+				<h1>Four Boxes Slideshow <span>Recreating the background image slideshow seen on <a href="http://www.atelier-serge-thoraval.com/en/">Atelier Serge Thoroval's website</a></span></h1>
+				
+			</header>
+		</div><!-- /container -->
+
+		<script src="js/classie.js"></script>
+		<script src="js/boxesFx.js"></script>
+		<script>
+			new BoxesFx( document.getElementById( 'boxgallery' ) );
+		</script>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

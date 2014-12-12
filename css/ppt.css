@@ -1,0 +1,20 @@
+ body{ 
+ 	/*background-image: url(../img/1.jpg);*/
+ 	background-color: 
+ 	 } 
+.navbar-inverse{
+	margin: auto;
+	margin-top: 20px;
+	/*opacity: 0.4;*/
+	background-color: transparent;
+	width: 80%;
+	
+
+}
+#navbar li a{
+	color:#4682B4;
+	font-size: 16;
+}
+#project{
+	color: #ffffff;
+}
